@@ -3,5 +3,5 @@
     "image": "debian:latest",
     "workspaceFolder": "/workspace/hello-world",
     "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/hello-world,type=bind",
-    "postCreateCommand": "./.devcontainer/install-dependencies.sh"
+    "postCreateCommand": "chmod +x ./.devcontainer/install-dependencies.sh && ./.devcontainer/install-dependencies.sh"
 }
