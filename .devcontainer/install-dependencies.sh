@@ -1,3 +1,4 @@
+#!/usr/bin/sh 
 
 # Install commonly used tools
 apt update
