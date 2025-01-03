@@ -1,7 +1,7 @@
 
 # Install commonly used tools
 apt update
-apt install locales-all curl git rlwrap vim -y
+apt install locales-all curl git-all rlwrap vim -y
 
 # Install Java
 apt install openjdk-17-jre -y
