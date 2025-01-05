@@ -1,7 +1,5 @@
 {
     "name": "Debian ClosureScript Development Container",
     "image": "debian:latest",
-    "workspaceFolder": "/workspace/hello-world",
-    "workspaceMount": "source=${localWorkspaceFolder},target=/workspace/hello-world,type=bind",
     "postCreateCommand": "chmod +x ./.devcontainer/install-dependencies.sh && ./.devcontainer/install-dependencies.sh"
 }
